@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>高中物理互動教學網</title>
+<meta name="description" content="高中物理各冊章節的互動教學網頁：簡報、互動視覺化、隨堂評量與資訊圖表。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="data/site.css">
+</head>
+<body>
+<header><div class="wrap">
+  <a class="crumb" href="https://brianyeh0718-hue.github.io/">← 回到教學網站入口（數學・物理・化學）</a>
+  <div class="kicker">SENIOR HIGH PHYSICS</div>
+  <h1>高中物理互動教學網</h1>
+  <p>每一章都有：NotebookLM 簡報、互動視覺化（運動模擬、v–t 與 x–t 圖等）、隨堂評量、資訊圖表、教學影片，以及抽籤、計時器、畫筆等課堂工具。</p>
+</div></header>
+<main><div class="wrap" id="books"></div></main>
+<footer><div class="wrap">教學內容依龍騰版教科書與 108 課綱編寫；備課分段請對照課本。</div></footer>
+<script src="data/chapters.js"></script>
+<script src="data/render.js"></script>
+<script>renderBooks(document.getElementById('books'), '');</script>
+</body>
+</html>

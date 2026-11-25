@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>選修物理 I</title>
+<meta name="description" content="高中選修物理 I（龍騰版）各章互動教學網頁。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../data/site.css">
+</head>
+<body>
+<header><div class="wrap">
+  <a class="crumb" href="../">← 回到網站首頁</a>
+  <div class="kicker">高中物理 · 龍騰版</div>
+  <h1>選修物理 I</h1>
+  <p>選擇章節進入互動教學網頁。</p>
+</div></header>
+<main><div class="wrap" id="books"></div></main>
+<footer><div class="wrap">教學內容依龍騰版教科書與 108 課綱編寫；備課分段請對照課本。</div></footer>
+<script src="../data/chapters.js"></script>
+<script src="../data/render.js"></script>
+<script>renderBooks(document.getElementById('books'), '../', 'elective1');</script>
+</body>
+</html>
