@@ -17,7 +17,7 @@ window.SITE = {
         { no: '第二章', title: '直線運動', path: 'elective1/ch2/', ready: true,
           desc: '位置、位移與路徑長、速度與速率、加速度、等加速度直線運動；含運動模擬器與教學影片', cover: 'elective1/ch2/assets/slides/slide01.jpg' },
         { no: '第三章', title: '平面運動', path: 'elective1/ch3/', ready: true,
-          desc: '平面運動的描述、相對運動、拋體運動、等速圓周運動；含拋體發射台、渡河模擬與教學影片', cover: 'elective1/ch3/assets/slides/slide01.jpg' }
+          desc: '平面運動的描述、相對運動、拋體運動、等速圓周運動；含拋體發射台、渡河模擬與教學影片', cover: 'elective1/ch3/assets/cover.jpg' }
       ]
     }
   ]
