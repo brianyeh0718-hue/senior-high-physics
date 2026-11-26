@@ -17,7 +17,9 @@ window.SITE = {
         { no: '第二章', title: '直線運動', path: 'elective1/ch2/', ready: true,
           desc: '位置、位移與路徑長、速度與速率、加速度、等加速度直線運動；含運動模擬器與教學影片', cover: 'elective1/ch2/assets/slides/slide01.jpg' },
         { no: '第三章', title: '平面運動', path: 'elective1/ch3/', ready: true,
-          desc: '平面運動的描述、相對運動、拋體運動、等速圓周運動；含拋體發射台、渡河模擬與教學影片', cover: 'elective1/ch3/assets/cover.jpg' }
+          desc: '平面運動的描述、相對運動、拋體運動、等速圓周運動；含拋體發射台、渡河模擬與教學影片', cover: 'elective1/ch3/assets/cover.jpg' },
+        { no: '第四章', title: '牛頓運動定律', path: 'elective1/ch4/', ready: true,
+          desc: '力與牛頓第一運動定律、牛頓第二運動定律、牛頓第三運動定律、牛頓運動定律的應用、圓周運動的動力學；含 F = ma 實驗台、斜面與電梯模擬與教學影片', cover: 'elective1/ch4/assets/cover.jpg' }
       ]
     }
   ]
